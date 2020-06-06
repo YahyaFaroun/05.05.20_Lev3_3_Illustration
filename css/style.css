@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+body{
+    font-family: 'Lato', 'Merriweather';
+    margin: 0;
+}
+
+
+
+h1{
+  font-size: 4em;
+  font-family: 'Merriweather';
+}
+p{
+  font-size: 1.7em;
+  font-family: 'Merriweather';
+}
+
+
+
+header nav {
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;    
+    
+    margin: 10px 10px 0px 20px;
+}
+header nav a {
+    color: black;
+    text-decoration: none;    
+    padding-left: 20px;
+}
+
+
+
+#lampe{
+  height: 80vh;
+  background: url(../img/illustration1.gif) right/contain no-repeat;
+}
+#lampe h1{
+  width: 45%;
+  padding-top: 10vh;
+  padding-left: 10%;
+}
+#lampe p{
+  width: 45%;
+  padding-left: 10%;
+}
+#lampe button:first-of-type{
+  margin-left: 10%;
+  font-size: 1rem;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+#lampe button:last-of-type{
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+
+
+#gesicht{
+  margin-top: 20vh;
+  height: 80vh;
+  background: url(../img/illustration2.png) left/contain no-repeat;
+  background-size: 60vh;
+}
+#gesicht h1{
+  padding-top: 20vh;
+  padding-left: 45%;
+  padding-right: 10%;
+}
+#gesicht p{
+  padding-left: 45%;
+  padding-right: 10%;
+}
+
+
+
+#fisch{
+  height: 80vh;
+  background: url(../img/illustration3.png) right/contain no-repeat;
+  background-size: 60vh;
+}
+#fisch h1{
+  width: 45%;
+  padding-top: 10vh;
+  padding-left: 10%;
+}
+#fisch p{
+  width: 45%;
+  padding-left: 10%;
+}
+
+
+#bilder{
+  margin-top: 20vh;
+}
+#bilder h1{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+#bilder p{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+#bilder article{
+  margin: 0;
+  text-align: center;  
+}
+#bilder article img{
+  width: 30%;
+}
+
+
+
+#sechsbilder{
+  margin-top: 20vh;
+}
+#sechsbilder h1{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+#sechsbilder p{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+#sechsbilder article{
+  text-align: center;  
+  
+}
+#sechsbilder article img{
+  width: 40%;
+  padding-bottom: 5%;
+}
+#sechsbilder article img:first-of-type{
+  padding-right: 5%;  
+}
+
+
+
+#dollar{
+  margin-top: 10vh;
+  }
+#dollar h1{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+#dollar p{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+#dollar div{
+  background-color: #F5FBFE;
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+}
+#dollar h2{
+  padding-top: 10vh;
+}
+#dollar h3{
+  color: gray;
+}
+#dollar button{
+  padding: 10px;
+  background-color: #24bff2;
+  color: white;
+  margin-bottom: 40px;
+}
+
+
+
+footer h1{
+  margin-top: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+footer nav{
+  padding: 5%;
+  
+}
+footer nav a{
+  text-decoration: none;
+  display:flex; 
+  flex-direction:column;
+  text-align: center;
+  padding-bottom: 15px;
+}
+footer nav a:nth-of-type(1), footer nav a:nth-of-type(3){
+  color: gray;
+}
+footer nav a:nth-of-type(2), footer nav a:nth-of-type(4){
+  color: black;
+}
+
+
+/*
+Font: Merriweather, Lato
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+*/
+
